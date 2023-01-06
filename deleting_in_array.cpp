@@ -1,10 +1,10 @@
 //Deleting an ELement in an Array
 Delete( 3 )
-	 	 x = A[ index ]
-	 	 for( i = index ; i < length - 1 ; i++ )
-	 	 {
-	 	 	 A[ i ] = A[ i+1] ;
-	 	 }	 
+x = A[ index ]
+for( i = index ; i < length - 1 ; i++ )
+{
+	A[ i ] = A[ i+1] ;
+}	 
 #include<stdio.h>
 struct Array
 {
@@ -19,7 +19,7 @@ struct Array
  for(i=0;i<arr.length;i++)
  printf("%d ",arr.A[i]);
  }
-int Delete(struct Array *arr,int index)
+int Delete(struct Array *arr,int index)//Deleting an Element from an Array at any Index 
 {
  int x=0;
  int i;
